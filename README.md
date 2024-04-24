@@ -41,8 +41,7 @@ NOTE : VARCHAR(50) berfungsi seperti string, untuk memberi batas 50 kata dalam t
 
 #### 5. Sisipkan sebuah kolom dengan nama phone (varchar 15) setelah kolom alamat!
 
-   ![Alt text](<Screenshot 2024-04-24 225319-1.png>)
-   
+   ![Alt text](<Screenshot 2024-04-24 225319-2.png>)
 ### Penjelasan:
 - ALTER TABLE biodata ADD COLUMN Phone VARCHAR(15) AFTER Alamat; Add field Phone dengan VARCHAR(50), setelah kplom Alamat.
 
@@ -55,7 +54,7 @@ NOTE : VARCHAR(50) berfungsi seperti string, untuk memberi batas 50 kata dalam t
 #### 7. Ubah nama kolom phone menjadi hp (varchar 20)!
 #### 8. Tambahkan kolom email setelah kolom hp.
 
-![Alt text](2-1.png)
+![Alt text](<Screenshot 2024-04-24 225538.png>)
 
 ### Penjelasan:
 - ALTER TABLE biodata CHANGE Phone Ph VARCHAR(20); Ubah field Phone menjadi Ph. 
